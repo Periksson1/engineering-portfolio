@@ -192,7 +192,7 @@ const PROJECTS: Project[] = [
       },
       {
         type: "video",
-        src: "/EGEarbox2.mp4",
+        src: "/EGearbox2.mp4",
         caption: "Storyboard video",
       },
     ]
