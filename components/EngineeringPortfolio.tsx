@@ -325,7 +325,7 @@ const PROJECTS: Project[] = [
     subtitle: "MATLAB simulation",
     year: "Year 2",
     image:
-      "/balloon1.png", // put file in /public
+      "/Balloon1.png", // put file in /public
     description:
       "Simulated ascent and descent of a stratospheric balloon with a sand payload to its desired position.",
     tags: ["MATLAB", "Modelling", "Aerospace"],
@@ -337,7 +337,7 @@ const PROJECTS: Project[] = [
       },
       {
         type: "img",
-        src: "/balloon2.png",
+        src: "/Balloon2.png",
         caption: "Application GUI",
       },
     ]
