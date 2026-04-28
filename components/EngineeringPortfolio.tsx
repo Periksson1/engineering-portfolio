@@ -866,29 +866,7 @@ const PROJECTS: Project[] = [
 
 
   },
-  {
-    id: "p-MC",
-    title: "Monte Carlo Simulation",
-    subtitle: "Stock portfolio prediction",
-    year: "Personal Projects",
-    image:
-      "/MC1.png",
-    description:
-      "Simulates an investment portfolio evolving over time using Monte Carlo methods.",
-    tags: ["Algorithms", "Python"],
-    content: [
-      {
-        type: "p",
-        text: "This code downloads historical stock price data for a list of Australian companies, calculates their daily returns, and uses this information to estimate expected returns and the covariance matrix. It then generates random portfolio weights and runs a Monte Carlo simulation to model how a $10,000 investment in this portfolio could evolve over 100 days. By simulating 100 different possible scenarios, it produces and plots a set of potential future portfolio value paths."
-      },
-      { 
-        type: "img",
-        src: "/MC1.png",
 
-      },
-    ]
-  },
-  
 ];
 
 const YEAR_GROUPS: YearBucket[] = ["Year 1", "Year 2", "Personal Projects"];
